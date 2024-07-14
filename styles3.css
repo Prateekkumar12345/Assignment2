@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.sans {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mono {
+    font-family: 'Courier New', Courier, monospace;
+}
+.small {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+.large {
+    font-size: 24px;
+}
+.light {
+    font-weight: 300;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+.normal1 {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.line-height-small {
+    line-height: 1.2;
+}
+
+.line-height-normal {
+    line-height: 1.6;
+}
+
+.line-height-large {
+    line-height: 2;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Flexbox Layout</title>
+    <link rel="stylesheet" href="styles6.css">
+</head>
+<body>
+    <header>
+        <h1>Complex Flexbox Layout</h1>
+    </header>
+
+    <main class="flex-container main-container">
+        <aside class="flex-item sidebar">Sidebar</aside>
+        <section class="flex-item content">
+            <div class="nested-flex-container">
+                <div class="nested-flex-item" style="order: 3;">Nested Item 3</div>
+                <div class="nested-flex-item" style="order: 1;">Nested Item 1</div>
+                <div class="nested-flex-item" style="order: 2;">Nested Item 2</div>
+            </div>
+        </section>
+        <nav class="flex-item nav">Navigation</nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Complex Flexbox Layout</p>
+    </footer>
+</body>
+</html>
