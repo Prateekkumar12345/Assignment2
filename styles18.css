@@ -1,0 +1,84 @@
+:root {
+   
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --border-color: #ccc;
+    
+  
+    --font-family: Arial, sans-serif;
+    --font-size-base: 16px;
+    --font-size-large: 24px;
+    --font-size-small: 14px;
+    
+
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+    
+    --border-radius: 5px;
+    
+ 
+    --transition-duration: 0.3s;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-large);
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-medium);
+}
+
+p {
+    margin-bottom: var(--spacing-medium);
+}
+
+.btn {
+    padding: var(--spacing-small) var(--spacing-medium);
+    font-size: var(--font-size-base);
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: var(--border-radius);
+    transition: background-color var(--transition-duration) ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.card {
+    padding: var(--spacing-medium);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-small);
+}
+
+.card p {
+    font-size: var(--font-size-small);
+    color: var(--text-color);
+}
